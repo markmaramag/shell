@@ -26,7 +26,7 @@ cat dir2/file3.txt
 rm -iv dir2/file4.txt
 
 # 7. Delete directories dir4 and dir5 including all their contents (if any)
-rm -rv dir4 dir5
+rm -r dir4 dir5
 
 # 8. List the contents of the current working directory to verify the deletion of dir4 and dir5
 ls
